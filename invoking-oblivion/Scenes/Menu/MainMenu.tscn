@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://byjfqv270ninv"]
+
+[ext_resource type="Script" uid="uid://dip05jmqcfoss" path="res://Scenes/Menu/main_menu.gd" id="1_a2ivp"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_a2ivp")
+
+[node name="INVOKING OBLIVION" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Campaign" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Arena" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Exit" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
